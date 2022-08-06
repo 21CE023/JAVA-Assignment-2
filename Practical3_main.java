@@ -16,20 +16,20 @@
 import java.util.*;
 import java.util.Scanner;
 
-public class pra3_main {
+public class Practical3_main {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
         int i, p, q, x;
         boolean flag = true;
-        ArrayList<pra3> acc = new ArrayList<pra3>();
+        ArrayList<Practical3> acc = new ArrayList<Practical3>();
         for (i = 0; i < 11; i++) {
-            acc.add(new pra3(i + 1, 300));
+            acc.add(new Practical3(i + 1, 300));
         }
         // while()
         System.out.print("Enter Account Number : ");
         int id = sc.nextInt();
-        acc.add(new pra3(id, 300));
+        acc.add(new Practical3(id, 300));
         while (flag) {
             menu();
             int key = sc.nextInt();
@@ -78,7 +78,7 @@ public class pra3_main {
                     break;
 
                 case 5:
-                    acc.add(new pra3(i++, 300));
+                    acc.add(new Practical3(i++, 300));
                     System.out.println("\nAccount is created successfully...\nId is " + i + "\nBalance is " + 300);
                     break;
 

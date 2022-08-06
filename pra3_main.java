@@ -88,7 +88,7 @@ public class pra3_main {
     }
 
     public static void menu() {
-        System.out.println("****Main menu****");
+        System.out.println("<------------------>Main Menu<------------------>");
         System.out.println("1: Balance Inqury");
         System.out.println("2: Withdraw money");
         System.out.println("3: Deposit money");

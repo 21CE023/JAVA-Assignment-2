@@ -1,3 +1,25 @@
+// Design a class named Account that contains:
+// •A private int data field namedid for the account (default 0).
+// •A private double data field named balance for the account (default 500₹).
+// •A no-arg constructor that creates a default account.
+// •The accessor method for dateCreated.
+// •A method named getMonthlyInterest() that returns the monthly interest.
+// •A method named deposit that deposits aspecified amount to the account.
+// •A private double data field named annualInterestRate that stores the
+// currentinterest rate (default 7%). Assume all accounts have the same
+// interest rate.
+// •A private Date data field named dateCreated that stores the date
+// when theaccount was created.
+// •A constructor that creates an account with the specified id and initial
+// balance
+// .•The accessor and mutator methods for id, balance, and
+// annualInterestRate.
+// •A method named getMonthlyInterestRate() that returns the monthlyinterest
+// •A method named withdraw that withdraws a specified amount from
+// theaccount.
+
+// 21CE023   Jyot Delvadiya
+
 import java.util.*;
 
 public class Practical2_main {
@@ -107,8 +129,7 @@ public class Practical2_main {
                 }
 
             }
-        }
-        else{
+        } else {
             System.out.println("Thanks For Visiting...");
         }
 

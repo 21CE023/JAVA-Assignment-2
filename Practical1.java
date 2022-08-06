@@ -4,6 +4,13 @@
 // A Single argument constructor that creates a Circle with the specified radius. 
 // A method named getArea() that returns area of the Circle. 
 // A method named getPerimeter() that returns perimeter of it. 
+// Design a class named Circle containing following attributes and
+//  behavior.•Onedouble data field named radius. The default valueis1.•A no-
+//  argumentconstructor that creates a default circle.•A Single argument
+//  constructor that creates a Circle with the specified radius.•A method named
+//  getArea() that returns area of the Circle.•A method named getPerimeter()
+//  that returns perimeterof it
+
 // 21CE023   Jyot Delvadiya
 
 import java.util.*;
@@ -28,12 +35,5 @@ class Circle{
 
 }
 public class Practical1 {
-//     public static void main(String[] args) {
-//         Scanner sc = new Scanner(System.in);
-//         System.out.println("Enter Radius of Circle : ");
-//         double radius = sc.nextDouble();
-//         Circle c = new Circle(radius);
-//         c.getarea();
-//         c.getPerimeter();
-//     }
+
 }

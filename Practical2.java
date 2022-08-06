@@ -68,10 +68,6 @@ public class Practical2 {
         annualInterestRate = sc.nextDouble();
         return annualInterestRate;
     }
-
-    // public Date date(){
-    // return d;
-    // }
     public double Withdraw(double withdraw) {
         Balance -= withdraw;
         return (Balance);

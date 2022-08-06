@@ -26,8 +26,6 @@ public class Practical2_main {
     public static void main(String[] args) {
         Practical2 pr = new Practical2();
         Scanner sc = new Scanner(System.in);
-        // String Date = pr.date();
-        // System.out.println("DATE : " + Date);
         int ID;
         double BALANCE, interestRATE;
         for (int i = 0; i >= 0; i++) {

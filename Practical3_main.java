@@ -35,9 +35,6 @@ public class Practical3_main {
             int key = sc.nextInt();
             switch (key) {
                 case 1:
-
-                    // System.out.println("\nEnter id you want to check bal. : ");
-                    // p = sc.nextInt();
                     System.out.println("Balance : " + acc.get(id).Balance(id));
                     break;
 

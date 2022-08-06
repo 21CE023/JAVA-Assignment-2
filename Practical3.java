@@ -16,16 +16,16 @@
 import java.util.*;
 import java.util.Scanner;
 
-public class pra3 {
+public class Practical3 {
     private int id = 0;
     private int bal[] = { 300, 300, 300, 300, 300, 300, 300, 300, 300, 300 };
 
-    public pra3() {
+    public Practical3() {
         Date d = new Date();
         System.out.println("Date : " + d);
     }
 
-    public pra3(int ID, int BAL) {
+    public Practical3(int ID, int BAL) {
         id = ID;
         // bal[] = BAL;
     }

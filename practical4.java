@@ -100,7 +100,7 @@ class CheckingAccount extends Account {
     }
 }
 
-class practical4 {
+class Practical4 {
     public static void main(String[] args) {
         Account a1 = new Account();
         Account a2 = new Account(123456, 100000);

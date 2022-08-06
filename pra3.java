@@ -19,10 +19,6 @@ import java.util.Scanner;
 public class pra3 {
     private int id = 0;
     private int bal[] = { 300, 300, 300, 300, 300, 300, 300, 300, 300, 300 };
-    private int withdraw;
-    private int deposit;
-    private int tra;
-    private int tra_money;
 
     public pra3() {
         Date d = new Date();

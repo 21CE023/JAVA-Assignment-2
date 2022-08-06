@@ -12,7 +12,7 @@ public class pra3_main {
             acc.add(new pra3(i + 1, 300));
         }
         // while()
-        System.out.print("Enter Account no.");
+        System.out.print("Enter Account Number : ");
         int id = sc.nextInt();
         acc.add(new pra3(id, 300));
         while (flag) {
@@ -80,7 +80,7 @@ public class pra3_main {
                     break;
             }
             if (key < 7) {
-                System.out.print("Enter Id : ");
+                System.out.print("Enter Account Number : ");
                 id = sc.nextInt();
                 System.out.println("\nBalance : " + acc.get(id).Balance(id));
             }

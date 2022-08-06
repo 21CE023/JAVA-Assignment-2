@@ -28,12 +28,12 @@ class Circle{
 
 }
 public class Practical1 {
-    public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
-        System.out.println("Enter Radius of Circle : ");
-        double radius = sc.nextDouble();
-        Circle c = new Circle(radius);
-        c.getarea();
-        c.getPerimeter();
-    }
+//     public static void main(String[] args) {
+//         Scanner sc = new Scanner(System.in);
+//         System.out.println("Enter Radius of Circle : ");
+//         double radius = sc.nextDouble();
+//         Circle c = new Circle(radius);
+//         c.getarea();
+//         c.getPerimeter();
+//     }
 }

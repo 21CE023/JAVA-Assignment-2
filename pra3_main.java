@@ -91,11 +91,11 @@ public class pra3_main {
     public static void menu() {
         System.out.println("<------------------>Main Menu<------------------>");
         System.out.println("1: Balance Inqury");
-        System.out.println("2: Withdraw money");
+        System.out.println("2: Withdraw Money");
         System.out.println("3: Deposit money");
         System.out.println("4: Transfer");
-        System.out.println("5: Create account");
-        System.out.println("6: deactivate Account");
+        System.out.println("5: Create Account");
+        System.out.println("6: Deactivate Account");
         System.out.println("7: Exit");
     }
 

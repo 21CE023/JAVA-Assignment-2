@@ -5,7 +5,7 @@ public class pra3_main {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
-        int i, p, q, x, y, z;
+        int i, p, q, x;
         boolean flag = true;
         ArrayList<pra3> acc = new ArrayList<pra3>();
         for (i = 0; i < 11; i++) {

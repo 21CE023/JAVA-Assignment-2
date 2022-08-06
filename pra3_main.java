@@ -73,6 +73,7 @@ public class pra3_main {
                     flag = false;
                     break;
                 case 7:
+                System.out.println("----------------------------------THANKS FOR VISITING------------------------------------------");
                     flag = false;
                     break;
                 default:
